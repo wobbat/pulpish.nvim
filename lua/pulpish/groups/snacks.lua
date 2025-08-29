@@ -31,10 +31,18 @@ function M.highlight(palette, opts)
     SnacksPickerPreviewFooter = { link = "SnacksPickerFooter" },
     SnacksPickerPreviewCursorLine = { bg = palette.alt_bg },
 
-    -- Avoid invisible dims on our darker bg
+    -- Avoid links to NonText (can be black in some setups)
     SnacksPickerTotals = { fg = palette.medium_gray },
     SnacksPickerUnselected = { fg = palette.medium_gray },
     SnacksPickerDimmed = { fg = palette.medium_gray },
+
+    -- File/Path styling (override Snacks defaults that link to NonText)
+    SnacksPickerFile = { fg = palette.white },
+    SnacksPickerDirectory = { fg = palette.blue },
+    SnacksPickerDir = { fg = palette.medium_gray },
+    SnacksPickerPathIgnored = { fg = palette.gray },
+    SnacksPickerPathHidden = { fg = palette.gray },
+    SnacksPickerDelim = { fg = palette.white },
 
     -- Accents inside the picker
     SnacksPickerSpecial = { fg = palette.cyan },
@@ -43,6 +51,15 @@ function M.highlight(palette, opts)
     SnacksPickerBold = { bold = true },
     SnacksPickerItalic = { italic = true },
 
+    -- Git statuses
+    SnacksPickerGitStatus = { fg = palette.white },
+    SnacksPickerGitStatusUntracked = { fg = palette.gray },
+    SnacksPickerGitStatusIgnored = { fg = palette.gray },
+
+    -- Misc that were linked to NonText by default
+    SnacksPickerBufFlags = { fg = palette.medium_gray },
+    SnacksPickerKeymapRhs = { fg = palette.medium_gray },
+
     -- Window picking highlights
     SnacksPickerPickWin = { fg = palette.fg, bg = bg },
     SnacksPickerPickWinCurrent = { fg = palette.fg, bg = palette.gray },
@@ -50,4 +67,3 @@ function M.highlight(palette, opts)
 end
 
 return M
-

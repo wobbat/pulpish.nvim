@@ -40,7 +40,7 @@ function M.highlight(palette, opts)
         -- File/Path styling (override Snacks defaults that link to NonText)
         SnacksPickerFile = { fg = palette.white },
         SnacksPickerDirectory = { fg = palette.blue },
-        SnacksPickerDir = { fg = palette.medium_gray },
+        SnacksPickerDir = { fg = palette.accent },
         SnacksPickerPathIgnored = { fg = palette.gray },
         SnacksPickerPathHidden = { fg = palette.gray },
         SnacksPickerDelim = { fg = palette.white },

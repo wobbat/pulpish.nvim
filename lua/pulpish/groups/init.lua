@@ -13,6 +13,7 @@ return {
     require "pulpish.groups.neogit",
     require "pulpish.groups.nvim-cmp",
     require "pulpish.groups.nvim-tree",
+    require "pulpish.groups.snacks",
     require "pulpish.groups.statusline",
     require "pulpish.groups.telescope",
     require "pulpish.groups.treesitter",

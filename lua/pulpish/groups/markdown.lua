@@ -2,7 +2,7 @@ local M = {}
 
 function M.highlight(palette, opts)
   return {
-    markdownBlockquote = { fg = palette.accent },
+    markdownBlockquote = { fg = palette.medium_gray },
     markdownBold = { fg = palette.yellow, bold = true },
     markdownCode = { fg = palette.green },
     markdownCodeBlock = { fg = palette.green },
@@ -14,7 +14,7 @@ function M.highlight(palette, opts)
     markdownH5 = { fg = palette.blue },
     markdownH6 = { fg = palette.blue },
     markdownHeadingDelimiter = { fg = palette.red },
-    markdownHeadingRule = { fg = palette.accent },
+    markdownHeadingRule = { fg = palette.medium_gray },
     markdownId = { fg = palette.purple },
     markdownIdDeclaration = { fg = palette.blue },
     markdownIdDelimiter = { fg = palette.light_gray },
@@ -23,7 +23,7 @@ function M.highlight(palette, opts)
     markdownLinkText = { fg = palette.blue },
     markdownListMarker = { fg = palette.red },
     markdownOrderedListMarker = { fg = palette.red },
-    markdownRule = { fg = palette.accent },
+    markdownRule = { fg = palette.medium_gray },
     markdownUrl = { fg = palette.cyan, underline = true },
   }
 end

@@ -35,6 +35,7 @@ function M.highlight(palette, opts)
         -- Avoid links to NonText (can be black in some setups)
         SnacksPickerTotals = { fg = palette.medium_gray },
         SnacksPickerUnselected = { fg = palette.medium_gray },
+        SnacksPickerSelected = { bg = "#202020" },
         SnacksPickerDimmed = { fg = palette.medium_gray },
 
         -- File/Path styling (override Snacks defaults that link to NonText)

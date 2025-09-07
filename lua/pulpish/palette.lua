@@ -5,6 +5,7 @@ local colors = {
     alt_bg = "#101010",
     accent = "#808080",
     white = "#f7f8f2",
+    white = "#ff00ff",
     gray = "#202020",
     medium_gray = "#86817e",
     light_gray = "#f7f8f2",

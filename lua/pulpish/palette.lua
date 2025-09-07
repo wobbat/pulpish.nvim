@@ -1,4 +1,3 @@
---[[
 local colors = {
     none = "NONE",
     fg = "#ffffff",
@@ -34,10 +33,8 @@ local colors = {
     reference_bg = "#202020",
 }
 return colors
-]]
 
-
--- Tuned for bg = #111111
+--[[ Tuned for bg = #111111
 local colors = {
     none = "NONE",
     fg = "#eaeaea",          -- slightly softer than pure white
@@ -81,5 +78,6 @@ local colors = {
 
     reference_bg = "#1a1a1a", -- match new gray level
 }
+]]
 
-return colors
+--return colors
